@@ -7,8 +7,10 @@ class App extends Component {
   state = { values: [] };
 
   componentDidMount() {
-    this.setState({
-      values: [{ id: 1, name: 'Value 1' }, { id: 2, name: 'Value 2' }]
+    axios.get('http://localhost:5000/api/values').then(response => {
+      this.setState({
+        values: response.data
+      });
     });
   }
 
