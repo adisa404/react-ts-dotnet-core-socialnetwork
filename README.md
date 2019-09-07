@@ -72,3 +72,5 @@ http://localhost:5000/api/values
 
 Setup db with sqlite without a db server
 opt.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
+
+dotnet ef migrations add InitialCreate -p Persistence -s API
