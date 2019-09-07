@@ -77,3 +77,7 @@ dotnet ef migrations add InitialCreate -p Persistence -s API
 
 Add seed migration
 dotnet ef migrations add SeedValues -p Persistence -s API/
+
+It is recommended to make all db calls async
+
+localhost:5000/api/values/1
