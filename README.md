@@ -30,5 +30,10 @@ This README would normally document whatever steps are necessary to get your app
 
 ### Tips and Tricks ###
 
-* Repo owner or admin
-* Other community or team contact
+.net —info
+
+Create new webapi over cli
+dotnet new webapi -n API
+
+Create new class library over cli
+dotnet new classlib -n Domain
