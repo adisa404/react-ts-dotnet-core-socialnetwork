@@ -81,3 +81,8 @@ dotnet ef migrations add SeedValues -p Persistence -s API/
 It is recommended to make all db calls async
 
 localhost:5000/api/values/1
+
+Create react app
+socialNetwork adisamrvoljak$ npx create-react-app client-app --use-npm --typescript
+Npm start (in client-app folder)
+
