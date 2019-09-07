@@ -40,3 +40,15 @@ dotnet new classlib -n Domain
 
 add "Domain" project to solution with 
 dotnet sln add Domain/
+
+Add references between projects
+Domain project is the center
+Application needs dependency to Domain and Persistence
+
+We go to the Application project and add ref to the Domain project
+Cd application
+dotnet add reference ../Domain
+
+API needs a reference to our Application project
+
+Persistence needs a reference to Domain
