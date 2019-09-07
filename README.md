@@ -37,3 +37,6 @@ dotnet new webapi -n API
 
 Create new class library over cli
 dotnet new classlib -n Domain
+
+add "Domain" project to solution with 
+dotnet sln add Domain/
