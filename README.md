@@ -66,3 +66,6 @@ dotnet add reference ../Domain
 API needs a reference to our Application project
 
 Persistence needs a reference to Domain
+
+dotnet run -p API/ - set API as startup project and run
+http://localhost:5000/api/values
