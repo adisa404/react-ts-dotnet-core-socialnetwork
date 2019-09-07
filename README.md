@@ -86,3 +86,5 @@ Create react app
 socialNetwork adisamrvoljak$ npx create-react-app client-app --use-npm --typescript
 Npm start (in client-app folder)
 
+We use axis to make http requests
+Npm install axis
