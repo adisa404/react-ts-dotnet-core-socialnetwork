@@ -28,6 +28,20 @@ This README would normally document whatever steps are necessary to get your app
 * Repo owner or admin
 * Other community or team contact
 
+### VS Code ###
+* auto close tag
+* auto rename tag
+* bracket part colorizer 2
+* C#
+* C# Extensions
+* sqlite
+* prettier
+* ES7 React/Reduc/GraphQL/React-Native snippets
+* material icon theme
+* NuGet Package Manager
+
+
+
 ### Tips and Tricks ###
 
 .net —info
