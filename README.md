@@ -69,3 +69,6 @@ Persistence needs a reference to Domain
 
 dotnet run -p API/ - set API as startup project and run
 http://localhost:5000/api/values
+
+Setup db with sqlite without a db server
+opt.UseSqlite(Configuration.GetConnectionString("DefaultConnection"));
