@@ -102,3 +102,5 @@ Install mediate package
 MediatR.Extensions.Microsoft.DependencyInjection
 
 Add hanger where we will query the db
+
+Add mediate to our services. We need to pass the assembly the list and query is in
