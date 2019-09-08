@@ -93,4 +93,12 @@ Npm install semantic-ui-react
 
 dotnet ef migrations add "ActivityEntityAdded" -p Persistence -s API
 
-We want EF to create the Guids
+We want EF to create the Guide
+
+Event store architecture - store events on db - we will not use
+mediatR
+
+Install mediate package 
+MediatR.Extensions.Microsoft.DependencyInjection
+
+Add hanger where we will query the db
