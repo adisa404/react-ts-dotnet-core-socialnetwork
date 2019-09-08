@@ -92,3 +92,5 @@ Npm install axios
 Npm install semantic-ui-react
 
 dotnet ef migrations add "ActivityEntityAdded" -p Persistence -s API
+
+We want EF to create the Guids
