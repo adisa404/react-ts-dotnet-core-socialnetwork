@@ -90,3 +90,5 @@ We use axios to make http requests
 Npm install axios
 
 Npm install semantic-ui-react
+
+dotnet ef migrations add "ActivityEntityAdded" -p Persistence -s API
