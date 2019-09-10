@@ -103,4 +103,10 @@ MediatR.Extensions.Microsoft.DependencyInjection
 
 Add hanger where we will query the db
 
-Add mediate to our services. We need to pass the assembly the list and query is in
+Add mediatR to our services. We need to pass the assembly where the list and query is in
+
+Details and list are our queries 
+But creating data and updating is a command
+
+if(success) return Unit.Value;
+Returns an empty object, but this is what we need know for our api handler. It will returns a 200 reposes which is enough
